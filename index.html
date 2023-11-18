@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pinterest</title>
+</head>
+<body>
+    <nav id="navbar-pinterest">
+        <a href="https://www.pinterest.com" id="pinterest-icon"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 256 256"><path fill="#CB1F27" d="M0 128.002c0 52.414 31.518 97.442 76.619 117.239c-.36-8.938-.064-19.668 2.228-29.393c2.461-10.391 16.47-69.748 16.47-69.748s-4.089-8.173-4.089-20.252c0-18.969 10.994-33.136 24.686-33.136c11.643 0 17.268 8.745 17.268 19.217c0 11.704-7.465 29.211-11.304 45.426c-3.207 13.578 6.808 24.653 20.203 24.653c24.252 0 40.586-31.149 40.586-68.055c0-28.054-18.895-49.052-53.262-49.052c-38.828 0-63.017 28.956-63.017 61.3c0 11.152 3.288 19.016 8.438 25.106c2.368 2.797 2.697 3.922 1.84 7.134c-.614 2.355-2.024 8.025-2.608 10.272c-.852 3.242-3.479 4.401-6.409 3.204c-17.884-7.301-26.213-26.886-26.213-48.902c0-36.361 30.666-79.961 91.482-79.961c48.87 0 81.035 35.364 81.035 73.325c0 50.213-27.916 87.726-69.066 87.726c-13.819 0-26.818-7.47-31.271-15.955c0 0-7.431 29.492-9.005 35.187c-2.714 9.869-8.026 19.733-12.883 27.421a127.897 127.897 0 0 0 36.277 5.249c70.684 0 127.996-57.309 127.996-128.005C256.001 57.309 198.689 0 128.005 0C57.314 0 0 57.309 0 128.002Z"/></svg></a>
+        <div class="pinterest-button">
+            <button class="button">Inicio</button>
+            <button class="button explorar">Explorar</button>
+            <button class="button create">Crear</button>
+        </div>
+        <div class="finder">
+            <span class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 20 20"><path fill="#666666" d="m17.545 15.467l-3.779-3.779a6.15 6.15 0 0 0 .898-3.21c0-3.417-2.961-6.377-6.378-6.377A6.185 6.185 0 0 0 2.1 8.287c0 3.416 2.961 6.377 6.377 6.377a6.15 6.15 0 0 0 3.115-.844l3.799 3.801a.953.953 0 0 0 1.346 0l.943-.943c.371-.371.236-.84-.135-1.211zM4.004 8.287a4.282 4.282 0 0 1 4.282-4.283c2.366 0 4.474 2.107 4.474 4.474a4.284 4.284 0 0 1-4.283 4.283c-2.366-.001-4.473-2.109-4.473-4.474z"/></svg></span>
+            <input type="text" placeholder="">
+        </div>        
+        <div id="notifications"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 512 512"><path fill="#666666" d="M440.08 341.31c-1.66-2-3.29-4-4.89-5.93c-22-26.61-35.31-42.67-35.31-118c0-39-9.33-71-27.72-95c-13.56-17.73-31.89-31.18-56.05-41.12a3 3 0 0 1-.82-.67C306.6 51.49 282.82 32 256 32s-50.59 19.49-59.28 48.56a3.13 3.13 0 0 1-.81.65c-56.38 23.21-83.78 67.74-83.78 136.14c0 75.36-13.29 91.42-35.31 118c-1.6 1.93-3.23 3.89-4.89 5.93a35.16 35.16 0 0 0-4.65 37.62c6.17 13 19.32 21.07 34.33 21.07H410.5c14.94 0 28-8.06 34.19-21a35.17 35.17 0 0 0-4.61-37.66ZM256 480a80.06 80.06 0 0 0 70.44-42.13a4 4 0 0 0-3.54-5.87H189.12a4 4 0 0 0-3.55 5.87A80.06 80.06 0 0 0 256 480Z"/></svg></div>
+        <div id="message"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 256 256"><path fill="#666666" d="M128 24a104 104 0 0 0-91.82 152.88l-11.35 34.05a16 16 0 0 0 20.24 20.24l34.05-11.35A104 104 0 1 0 128 24ZM84 140a12 12 0 1 1 12-12a12 12 0 0 1-12 12Zm44 0a12 12 0 1 1 12-12a12 12 0 0 1-12 12Zm44 0a12 12 0 1 1 12-12a12 12 0 0 1-12 12Z"/></svg></div>
+        <div id="profile-img"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24"><path fill="#666666" fill-rule="evenodd" d="M8 7a4 4 0 1 1 8 0a4 4 0 0 1-8 0Zm0 6a5 5 0 0 0-5 5a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3a5 5 0 0 0-5-5H8Z" clip-rule="evenodd"/></svg></div>
+        <div id="desplegar"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24"><path fill="none" stroke="#666666" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m16 15l-4 4l-4-4m0-6l4-4l4 4"/></svg></div>
+    </nav>
+    <main id="content">
+        <section class="card-image-a">
+            <img src="https://images.pexels.com/photos/18898429/pexels-photo-18898429/free-photo-of-hojas-mojado-medio-ambiente-fruta.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagen 1">
+            <div class="download-button">Guardar</div>
+        </section>
+        <section class="card-image">
+            <img src="https://images.pexels.com/photos/15327222/pexels-photo-15327222/free-photo-of-ciudad-coches-calle-edificios.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 2">
+            <div class="download-button">Guardar</div>
+        </section>
+        <section class="card-image-b">
+            <img src="https://images.pexels.com/photos/4200745/pexels-photo-4200745.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 3">
+            <div class="download-button">Guardar</div>
+        </section>
+        <section class="card-image">
+            <img src="https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 4">
+            <div class="download-button">Guardar</div>
+        </section>
+        <section class="card-image-c">
+            <img src="https://images.pexels.com/photos/18966777/pexels-photo-18966777/free-photo-of-madera-carretera-amanecer-paisaje.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagen 5">
+            <div class="download-button">Guardar</div>
+        </section>
+        <section class="card-image">
+            <img src="https://images.pexels.com/photos/2746823/pexels-photo-2746823.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 6">
+            <div class="download-button">Guardar</div>
+        </section>
+        <section class="card-image-d">
+            <img src="https://images.pexels.com/photos/426976/pexels-photo-426976.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 7">
+            <div class="download-button">Guardar</div>
+        </section>
+        <section class="card-image">
+            <img src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 8">
+            <div class="download-button">Guardar</div>
+        </section>
+        <section class="card-image-e">
+            <img src="https://images.pexels.com/photos/614117/pexels-photo-614117.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 9">
+            <div class="download-button">Guardar</div>
+        </section>
+        <section class="card-image">
+            <img src="https://images.pexels.com/photos/18729721/pexels-photo-18729721/free-photo-of-ligero-blanco-y-negro-ciudad-carretera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagen 10">
+            <div class="download-button">Guardar</div>
+        </section>
+        <section class="card-image-f">
+            <img src="https://images.pexels.com/photos/221185/pexels-photo-221185.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 11">
+            <div class="download-button">Guardar</div>
+        </section>
+        <div class="card-image">
+            <img src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 12">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image-g">
+            <img src="https://images.pexels.com/photos/33488/navigation-car-drive-road.jpg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 13">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image">
+            <img src="https://images.pexels.com/photos/3621104/pexels-photo-3621104.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 14">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image-h">
+            <img src="https://images.pexels.com/photos/1174746/pexels-photo-1174746.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 15">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image">
+            <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 16">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image">
+            <img src="https://images.pexels.com/photos/47730/the-ball-stadion-football-the-pitch-47730.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 17">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image-i">
+            <img src="https://images.pexels.com/photos/1051077/pexels-photo-1051077.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 18">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image">
+            <img src="https://images.pexels.com/photos/5077069/pexels-photo-5077069.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 19">
+            <div class="download-button">Guardar</div></div>
+        <div class="card-image-j">
+            <img src="https://images.pexels.com/photos/802024/pexels-photo-802024.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 20">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image">
+            <img src="https://images.pexels.com/photos/114820/pexels-photo-114820.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 21">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image">
+            <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 22">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image">
+            <img src="https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 23">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image-k">
+            <img src="https://images.pexels.com/photos/3172566/pexels-photo-3172566.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 24">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image">
+            <img src="https://images.pexels.com/photos/771881/pexels-photo-771881.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 25">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image-l">
+            <img src="https://images.pexels.com/photos/18922022/pexels-photo-18922022/free-photo-of-blanco-y-negro-arboles-mullido-paisaje-con-nubes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagen 26">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image">
+            <img src="https://images.pexels.com/photos/2381596/pexels-photo-2381596.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 27">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image-m">
+            <img src="https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 28">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image">
+            <img src="https://images.pexels.com/photos/5952651/pexels-photo-5952651.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 29">
+            <div class="download-button">Guardar</div>
+        </div>
+        <div class="card-image-n">
+            <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Imagen 30">
+            <div class="download-button">Guardar</div>
+        </div>
+    </main>
+    
+</body>
+</html>
